@@ -1,3 +1,5 @@
-# StringDemo
+# UtilsDemo
 
-UtilsDemo
+这里存放的是有开发中可能会用到的java工具包
+
+包含一些知识点的讲解和程序的说明等。
