@@ -27,15 +27,17 @@ public class StringDemo1
 		// 常量池中已经存在，不再创建新的 
 		String str2 = "JavaEE";
 		
-		//常量池中已经存在，在堆中创建一个新的String对象，值为 JavaEE
+		//常量池中已经存在，在堆中创建一个新的String对象，对象里面有一个地址引用，地址引用的值指向的是JavaEE
 		String str3 = new String("JavaEE");
 		System.out.println( str1.hashCode() );
 		
-		//字符串常量相加，直接在
+		//字符串常量相加，直接在字符串常量池中创建一个新的String 对象
 		String str4 = "JavaEE" + "Android"; //字符串的 + 操作时如何进行的
 		
+		//在常量池中创建新的对象 Android
 		String str5 = "Android";
 		
+		//两个字符变量的 + 操作，底层调用的是 New StringBuilder 后面会学习到
 		String str6 = str1 + str5 ;
 		
 		str5 = str5 + "Handoop";
