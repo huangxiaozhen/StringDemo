@@ -10,6 +10,9 @@ import javax.net.ssl.SSLContext;
 // 主要是与日期相关 有三个主要类 
 // date simpledateformat calenda
 
+// java 日期日期类的一些总结
+//http://blog.csdn.net/shibenjie/article/details/4263912
+
 public class DateDemo
 {
 	public static void main(String[] args) throws ParseException
